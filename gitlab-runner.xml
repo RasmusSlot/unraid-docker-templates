@@ -1,0 +1,12 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <Container version="2">
+   <Name Default="GitLab-Runner">GitLab-Runner</Name>
+   <Overview>
+        GitLab CI Multi Runner used to fetch and run pipeline jobs with GitLab CI.
+   </Overview>
+   <Registry>https://registry.hub.docker.com/u/gitlab/gitlab-runner/</Registry>
+   <Repository>gitlab/gitlab-runner</Repository>
+   <Privileged>false</Privileged>
+   <Network Default="host">bridge</Network>
+   <Category>Productivity: Status:Stable</Category>
+ </Container>
