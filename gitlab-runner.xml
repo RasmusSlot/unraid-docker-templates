@@ -8,5 +8,6 @@
    <Repository>gitlab/gitlab-runner</Repository>
    <Privileged>false</Privileged>
    <Network Default="host">bridge</Network>
+    <Icon>https://raw.githubusercontent.com/RasmusSlot/unraid-docker-templates/main/images/gitlab-runner.png</Icon>
    <Category>Productivity: Status:Stable</Category>
  </Container>
